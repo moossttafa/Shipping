@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+                    /* lg screen*/
+@media (max-width :1200px)
+{
+    
+    .card{
+        width: 60%;
+    }
+    .contact-us .sec-title-headline .top-handline-title{
+        font-size: 17px;
+        width: 13%;
+    }
+    .contact-us .Send-information .card h5{
+        width: 50%;
+    }
+}
+
+                 /* md screen*/
+@media (max-width :991px)
+{
+    .about-one .about-box-img .box-img{
+        margin-left: 164px;
+
+    }
+    .about-box-text{
+        margin-top: 20px;
+
+    }
+    .contact-us .sec-title-headline .top-handline-title{
+        font-size: 17px;
+        width: 19%;
+    }
+    .contact-us h3{
+        width: 65%;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .contact-us .Send-information .card .btn{
+        margin-top: 10px;
+
+    }
+}
+                 /* sm screen*/
+@media (max-width :768px){
+    .navbar{
+        background-color: #ffffff;
+    }
+    .navbar .navbar-nav .nav-item .nav-link{
+        color: #000;
+    }
+    .header .overlay .container .banner .table-cell .handline{
+        font-size: 30px;
+    }
+    .header .overlay .container .banner .table-cell .bio-website{
+        font-size: 12px;
+    }
+    .header .overlay .container .banner .table-cell{
+        height: 95vh;
+
+    }
+    .about-box-text{
+        margin-top: 30px;
+    }
+    .footer .footer-newsletter-form .btn-1{
+        margin: 20px 0px 10px 0px;
+    }
+  
+    .header .overlay .container .banner .table-cell .card{
+        margin: 20px auto;
+    }
+    .header .overlay .container .banner .table-cell .Register .handline{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .header .overlay .container .banner .table-cell .Register .bio-website{
+        text-align: center;
+        font-size: 18px;
+        font-weight: 800;
+    }
+    .header .overlay .container .banner .table-cell .Register .link-btn .btn{
+        margin: auto;
+    }
+    .box-service{
+        margin: 10px 0px;
+    }
+    .contact-us .sec-title-headline .top-handline-title{
+        width: 27%;
+        font-weight: 800;
+     }
+     .about-one .about-box-img .box-img {
+        margin-left: 55px;
+
+     }
+}
+
+@media (max-width :576px){
+    .header .overlay .container .banner .table-cell .Register{
+        text-align: center;
+    }
+    .portfolio .item-box{
+        margin: 10px 0px;
+
+    }
+    .contact-us .sec-title-headline .top-handline-title {
+        width: 42%;
+    }
+ 
+     
+   /*ssm*/
+}
+@media (max-width :480px){
+    .header .overlay .container .banner .table-cell .bio-website{
+        font-size: 15px;
+        font-weight: 100;
+        display: none;
+    }
+    footer .footer-newsletter-form .btn-1{
+        margin-top: 20px;
+    }
+   
+    /*xsm*/
+ }
+ @media (max-width :320px){
+ 
+    .card{
+        width: 100%;
+    }
+    .contact-us .sec-title-headline .top-handline-title {
+        width: 50%;
+
+    }
+    .contact-us .Send-information .card h5{
+        width: 80%;
+
+    }
+   
+    /*xsm*/
+ }

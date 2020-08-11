@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Sing Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/Style.css" />
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <!--start Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/logo3-removebg-preview.png" alt="pic"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" ><i class="fas fa-home home"></i>الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#service" > <i class="fas fa-sort-amount-down-alt works"></i>خدماتنا</a></li>
+                    <li class="nav-item"><a class="nav-link " href="#about" > <i class="fas fa-server about"></i>اعرف عنا</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer"><i class="fas fa-headset contact"></i>تواصل معنا</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#Register"><i class="fas fa-users team"></i>طلب الشحن</a> </li>
+                    <li class="nav-item"><a class="nav-link" href="login.html" ><i class="fas fa-sign-in-alt"></i>سجل دخول</a> </li> 
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--end nav-->
+    <!--Start Header-->
+    <section id="home" class="header">
+        <div class="overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="banner display-table">
+                        <div class="head-info table-cell text-center">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12 Register">
+                                    <div class="Register-text">
+                                        <h1 class="handline">يمكنك شحن اي شيئ تريده </h1>
+                                        <p class="bio-website">شحن بأمان وثقة وسرعه</p>
+                                        <a href="#Register" class="link-btn">
+                                            <button type="button" class="btn">اشحن متطلباتك </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6  col-sm-12  forms">
+                                    <form action="">
+                                        <div class="card text-center " style="width: 18rem;">
+                                            <div class="card-body">
+                                                <h5 class="card-title">تتبع شحنتك الان</h5>
+                                                <input type="text" placeholder="ادخل رقم شحنتك">
+                                                <button class="btn" id="btnclick" type="button" data-toggle="modal"
+                                                    data-target="#exampleModal" name="button">تتبع الان
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">تفاصيل شحنتك</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلق</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Header-->
+    <!--Start service 
+    <section class="service" id="service">
+        <div class="container">
+            <h1 class="text-center">خدماتنا</h1>
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-service">
+                        <img src="img/service/أسماء-شركات-خدمات-الـ-Delivery-في-العراق-990x556.jpg" alt="pic">
+                        <div class="text">
+                            <h3 class="text-center">توصيل </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-service">
+                        <img src="img/service/delivery_WEB-824x549.jpg" alt="pic">
+                        <div class="text">
+                            <h3 class="text-center"> سريع</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-service">
+                        <img src="img/service/ESHFi7nXkAAdIhP.png" alt="pic">
+                        <div class="text">
+                            <h3 class="text-center"> فى نفس </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="box-service">
+                        <img src="img/service/S_thumb_24618711_adaptiveResize_700_1000.jpg" alt="pic">
+                        <div class="text">
+                            <h3 class="text-center"> اليوم</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!--End service-->
+    <!--Start About-one-->
+    <div class="about-one " id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-box-img">
+                        <div class="box-img">
+                            <img src="img/unnamed.jpg" alt="pic">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-box-text">
+                        <div class="sec-title sec-left">
+                            <div class="sec-title-headline">
+                                <h2 class="top-handline-title">لماذا نحن </h2>
+                                <h3 class="handline-title">تقديم افضل حلول</h3>
+                            </div>
+                        </div>
+                        <p class="about-text"> تأسست الشركه عام 2010 في مصر وباتت شركه شحن مميزة فى ولدينا الان اكثر من
+                            10 مكاتب فى محافظات مختلفة وفرعنا الرئيسي فى العاصمة القاهرة وتقدم الشركة خدمة نقل البضائع
+                            والمتعلقات الشخصية من محافظة الي اخري بسرعة أمان باستخدام اسطول كبير من سياراتنا ودرجاتنا
+                            البخارية الذين يمتلكون الكفأة والامانة ونقدم خدمات نقل المتعلقات الشخصية - والبضائع -
+                            والاوراق - وتوصيل الهداية
+                         </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--End About-one-->
+    <!--sTART portfolio-->
+    <div class="portfolio" id="Register">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="item-box ">
+                        <i class="far fa-comments"></i>
+                        <h3>الطلبات من الموقع </h3>
+                        <span>55</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-box ">
+                        <i class="fas fa-search-location"></i>
+                        <h3>فروعنا </h3>
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-box ">
+                        <i class="fas fa-user-friends"></i>
+                        <h3>عملائنا</h3>
+                        <span>55</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="item-box ">
+                        <i class="far fa-folder-open"></i>
+                        <h3>الطلبات التي قمنا بها</h3>
+                        <span>100</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--start contact-us-->
+    <div class="contact-us text-center" id="Contact">
+        <div class="container">
+            <div class="col-lg-12">
+                <div class="sec-title-headline">
+                    <h2 class="top-handline-title">طلب الشحن</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>معلومات المرسل</h3>
+                            <div class="Send-information">
+                                <div class="row input-filed">
+                                    <div class="col-md-3"> <label for="">الاسم</label><span>*</span></div>
+                                    <div class="col-md-9"><input type="text" name="" placeholder="الاسم"> <br></div>
+                                </div>
+                                <div class="row input-filed">
+                                    <div class="col-md-3"><label for="">اسم الشركة</label></div>
+                                    <div class="col-md-9"> <input type="text" name="" placeholder="اسم الشركة"><br>
+                                    </div>
+                                </div>
+                                <div class="row input-filed">
+                                    <div class="col-md-3"> <label for="">المدينة</label><span>*</span></div>
+                                    <div class="col-md-9"> <input type="text" name="" placeholder="المدينة"><br></div>
+                                </div>
+                                <div class="row input-filed">
+                                    <div class="col-md-3"> <label for="">العنوان</label><span>*</span></div>
+                                    <div class="col-md-9"> <input type="text" name="" placeholder="العنوان"><br></div>
+                                </div>
+                                <div class="row input-filed">
+                                    <div class="col-md-3"><label for="">رقم الموبايل</label><span>*</span></div>
+                                    <div class="col-md-9"><input type="text" name="" placeholder="رقم الموبايل"><br>
+                                    </div>
+                                </div>
+                                <div class="row input-filed">
+                                    <div class="col-md-3"><label for="">نوع الشحنة</label><span>*</span></div>
+                                    <div class="col-md-9"><input type="text" name="" placeholder="نوع الشحنة "><br>
+                                    </div>
+                                </div>
+                                <div class="row input-filed">
+                                    <div class="col-md-3"><label for=""></label>وزن الشحنة</label><span>*</span></div>
+                                    <div class="col-md-9"> <input type="text" name="" placeholder="وزن الشحنة"><br>
+                                    </div>
+                                </div>
+                                <div class="row input-filed">
+                                    <div class="col-md-3"><label for="">نوع الشحن</label><span>*</span></div>
+                                    <div class="col-md-9">
+                                        <select name="cars" id="cars" class="cars">
+                                            <option value="volvo">اختر نوع الشحن</option>
+                                            <option value="volvo">سيارة</option>
+                                            <option value="saab">دراجة بخارية</option>
+                                            <option value="saab">سيارة نقل كبيرة</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row input-filed">
+                                    <div class="col-md-3"><label for="">مبلغ التحصيل</label><span>*</span></div>
+                                    <div class="col-md-9"><input type="text" name="" placeholder=" مبلغ التحصيل "><br>
+                                    </div>
+                                </div>
+                                <div class="row input-filed">
+                                    <div class="col-md-3"><label for="">الرمز البريدي</label></div>
+                                    <div class="col-md-9"> <input type="text" name="" placeholder="الرمز البريدي "> <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-5 input-filed">
+                            <h3>معلومات المستلم</h3>
+                             <div class="Send-information">
+                                    <div class="row input-filed">
+                                        <div class="col-md-3"> <label for="">الاسم</label><span>*</span></div>
+                                        <div class="col-md-9"><input type="text" name="" placeholder="الاسم"> <br></div>
+                                    </div>
+                                    <div class="row input-filed">
+                                        <div class="col-md-3"><label for="">اسم الشركة</label></div>
+                                        <div class="col-md-9"> <input type="text" name="" placeholder="اسم الشركة"><br>
+                                        </div>
+                                    </div>
+                                    <div class="row input-filed">
+                                        <div class="col-md-3"> <label for="">المدينة</label><span>*</span></div>
+                                        <div class="col-md-9"> <input type="text" name="" placeholder="المدينة"><br></div>
+                                    </div>
+                                    <div class="row input-filed">
+                                        <div class="col-md-3"> <label for="">العنوان</label><span>*</span></div>
+                                        <div class="col-md-9"> <input type="text" name="" placeholder="العنوان"><br></div>
+                                    </div>
+                                    <div class="row input-filed">
+                                        <div class="col-md-3"><label for="">رقم الموبايل</label><span>*</span></div>
+                                        <div class="col-md-9"><input type="text" name="" placeholder="رقم الموبايل"><br>
+                                        </div>
+                                    </div>
+                                    <div class="row input-filed">
+                                        <div class="col-md-3"><label for="">الرمز البريدي</label></div>
+                                        <div class="col-md-9"> <input type="text" name="" placeholder="الرمز البريدي "> <br>
+                                        </div>
+                                     </div>
+                                     <div class="card">
+                                        <div class="card-body">
+                                            <h5>تتبع شحنتك الان</h5>
+                                            <input type="text" placeholder="ادخل رقم شحنتك">
+                                            <button class="btn" id="btnclick" type="button" data-toggle="modal"
+                                                data-target="#exampleModal" name="button">تتبع الان
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <button class="btn m-3 p-2" style="background-color: #1ea238;" type="button" name="button"> تأكيد الطلب</button>
+                              </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <!--start Footer-->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/mostafo11" class="social_item">
+                            <span class=" social-icon  icon-facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mostafa-hamed-41ab06196" class="social_item">
+                            <span class=" social-icon icon-linkedin-in">
+                                <i class="fab fa-linkedin-in"></i>
+                            </span>
+                        </a>
+                    </div>
+                    <p class="copyright">© 2020 Created By <a href="https://nostalgic-hoover-443893.netlify.app">Mostafa Ahmed</a> 
+                    </p>
+                 </div>
+                 
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/castem.js"></script>
+  </body>
+</html>
