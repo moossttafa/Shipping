@@ -206,7 +206,7 @@ body {
 .modal-content {
   position: absolute;
   top: 220px;
-  left: 5px;
+  width: 90% !important;
 }
 
 .email-box {

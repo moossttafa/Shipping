@@ -203,10 +203,9 @@ margin: 0px;
 .modal-content {
   position: absolute;
   top: 220px;
-  left: 5px;
+  width: 90% !important;
 }
-.modal {
-}
+ 
 .email-box {
   height: 40px;
   justify-content: center;
